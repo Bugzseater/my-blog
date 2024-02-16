@@ -34,7 +34,7 @@ export default async function Home() {
   return (
     <div>
      
-      <div className=" grid grid-cols-1 lg:grid-cols-2 mt-5 gap-6">
+      <div className=" grid grid-cols-1 lg:grid-cols-3 mt-5 gap-6">
 
         {data.map((post: any, idx: Key | null | undefined) => (
           <Card key={idx}>
