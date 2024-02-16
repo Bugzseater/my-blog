@@ -1,4 +1,4 @@
-import About from "@/app/components/About";
+
 import { fullBlog } from "@/app/lib/interface";
 import { client, urlFor } from "@/app/lib/sanity";
 import { PortableText } from "@portabletext/react";
